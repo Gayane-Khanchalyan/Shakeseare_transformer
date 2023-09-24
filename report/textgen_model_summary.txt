@@ -1,0 +1,23 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 80)]              0         
+                                                                 
+ token_and_position_embeddi  (None, 80, 256)           532480    
+ ng (TokenAndPositionEmbedd                                      
+ ing)                                                            
+                                                                 
+ transformer_block (Transfo  (None, 80, 256)           658688    
+ rmerBlock)                                                      
+                                                                 
+ transformer_block_1 (Trans  (None, 80, 256)           658688    
+ formerBlock)                                                    
+                                                                 
+ dense_4 (Dense)             (None, 80, 2000)          514000    
+                                                                 
+=================================================================
+Total params: 2363856 (9.02 MB)
+Trainable params: 2363856 (9.02 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

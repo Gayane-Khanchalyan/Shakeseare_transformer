@@ -1,0 +1,1 @@
+The aim of the task was to create a transformer language model which will generate a text with Shakeseare style.The model should get the length of desired text and generate a text close to the length. Shakeseare dataset used in this report is from https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays.
